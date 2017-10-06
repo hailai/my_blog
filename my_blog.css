@@ -1,0 +1,215 @@
+body{
+    background-color: #f1f1ef;
+}
+header{
+    height:36px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 20px;
+    background-color: #D5E4F4;
+}
+header ul{
+    list-style: none;
+    width:600px;
+    margin:0 auto;
+}
+#nav a{
+    text-decoration:none
+}
+#nav li{
+    float: left;
+    width:100px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.nav_list {
+    width:100px;
+    padding-left: 0px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.nav_list li{
+    clear: both;
+}
+
+#front_end{
+    position: relative;
+}
+#back_end{
+    position: relative;
+}
+#front_end:hover .nav_list{
+    display: block;
+}
+
+#back_end:hover .nav_list{
+    display: block;
+}
+.nav_list li:hover{
+    background-color: #D5E4F4;
+}
+article{
+    width:640px;
+    margin:0 auto;
+}
+article a{
+   text-decoration:none; 
+}
+.article_block{
+    border-bottom:1px solid lightgrey ;
+    padding:25px 25px;
+    margin-bottom: 30px;
+    background-color: white;
+    position: relative;
+}
+.title{
+    font-size: 20px;
+    color: orangered;
+    float: left;
+    margin-bottom: 10px;
+}
+.time{
+    font-size:13px;
+    float:right;
+}
+.cover_pic{
+    margin-bottom: 10px;
+}
+.cover_pic img{
+    width:570px;
+    height:200px;
+}
+.roudup{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.label{
+    float:left;
+    font-size: 13px;
+    float:left;
+}
+.full_show{
+    float:right;
+    width:60px;
+    font-size: 13px;
+}
+.comments_num{
+    float:right;
+    width:50px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+
+/*查看全文里面的css*/
+#content_block{
+    background-color: white;
+    padding:20px;
+    margin-bottom: 20px;
+}
+#article_title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#article_time{
+    float:left;
+    font-size: 13px;
+    margin-bottom: 10px;
+    width:160px;
+}
+#article_comments_num{
+    float: left;
+    font-size: 13px;
+    width:160px;
+}
+#article_label{
+    float: left;
+    font-size: 13px;
+    width:160px;
+}
+#article_content{
+    clear: both;
+}
+#write_comments{
+    background-color: #dddddd;
+    padding:5px 10px;
+    position: relative;
+}
+#article_comments p{
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 12px;
+}
+#comments_block{
+    padding:5px 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 6px;
+}
+#c_name{
+    float: left;
+    font-size: 13px;
+}
+#c_time{
+    float: left;
+    font-size: 13px;
+}
+#comments{
+    clear: both;
+    margin:20px 0px;
+}
+#aa{
+    margin-top: 5px;
+    border-bottom: 1px solid gray;
+}
+#write_comments p{
+    margin:6px 0px;
+    font-size: 13px;
+}
+#reset_button{
+    display: none;
+}
+#write_comments button{
+    width:60px;
+    height:30px;
+
+}
+#write_comments textarea{
+    width: 500px;
+    height: 130px;
+}
+#notice{
+    display: none;
+    position: absolute;
+    left:35%;
+    top:45%;
+    background-color: orange;
+}
+#page_jump{
+    width:200px;
+    height:30px;
+    margin:0 auto;
+}
+#now_page{
+    width:30px;
+    float: left;
+    text-align: center;
+    background-color: darkgrey;
+}
+#link_page{
+    width:30px;
+    float: left;
+    background-color: green;
+    text-align: center;
+}
+#link_page a{
+    text-decoration:none;
+    color: white;
+}
+footer{
+    height:40px;
+    background-color: #aaaaaa;
+    text-align: center;
+    clear: both;
+    padding-top: 30px;
+}

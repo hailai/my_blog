@@ -1,0 +1,259 @@
+a{ text-decoration:none}
+#log_page {
+    height:600px;
+    margin:0 auto;
+    width:600px;
+    text-align: center;
+}
+#log_page form{
+    width:280px;
+    margin:0 auto;
+}
+
+header{
+    height:60px;
+    position: relative;
+    border-bottom: solid 1px gray;
+}
+#block_title{
+    font-size: 25px;
+    font-family: 楷体;
+    width:200px;
+    height:30px;
+    position: absolute;
+    left: 45%;
+}
+#name{
+    position: absolute;
+    right:100px;
+}
+#logout{
+    position: absolute;
+    right:50px;
+}
+#nav{
+    width:400px;
+    height:35px;
+    position: absolute;
+    left: 40%;
+    bottom: 0px;
+}
+
+#nav li{
+    list-style:none;
+    float: left;
+    width:60px;
+
+}
+#full_title{
+    font-size: 18px;
+}
+#full_time{
+    font-size: 13px;
+    margin-left: 13px;
+}
+#full_content{
+    padding:13px;
+    background-color: #cccccc;
+}
+#full_delete {
+    float: right;
+    width: 66px;
+    height:6px;
+    font-size: 16px;
+}
+#full_updata {
+    float: right;
+    width: 66px;
+    height:60px;
+    font-size: 16px;
+}
+#full_comments{
+    clear: both;
+    padding:13px;
+    border-top: 1px solid lightskyblue;
+}
+#comments_block{
+    padding:5px 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 6px;
+}
+#comments_name{
+    float: left;
+    font-size: 13px;
+}
+#comments_time{
+    float: left;
+    font-size: 13px;
+}
+#comments_content{
+    clear: both;
+    margin:20px 0px;
+}
+
+
+/*这里是添加博文模块的css*/
+article{
+    width:1000px;
+    margin: 0 auto;
+    padding: 10px 40px 10px 40px ;
+    position: relative;
+    z-index: 0;
+}
+article_title{
+    height:30px;
+}
+#article_label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cover_picture{
+    height:30px;
+}
+#main_word{
+    float: left;
+}
+#article_main{
+    float: left;
+    width:600px;
+    height:400px;
+}
+.article_sub{
+    width:60px;
+    height:30px;
+    margin-left: 450px;
+    background-color: #999999;
+}
+#add_page_notice{
+    display: none;
+    width:130px;
+    height:28px;
+    background-color: #f0c040;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    left:45%;
+    bottom: 45%;
+}
+
+/*这里是显示index.php控制博文的css*/
+#list_head{
+    height:38px;
+    border-bottom: 1px solid #ddd;
+    pading:2px;
+}
+#list_name{
+    width:250px;
+    float: left;
+}
+#list_search{
+    width:250px;
+    float: right;
+}
+.control_block{
+    height:120px;
+    border: 2px solid #ddd ;
+    margin-bottom: 10px;
+    padding:5px;
+    position: relative;
+}
+.show_title a{
+    font-size:18px;
+    color: #7AB7F3;
+    position: absolute;
+    top:5px;
+}
+.show_label{
+    font-size: 13px;
+    position: absolute;
+    top:5px;
+    right:15px;
+}
+.show_time{
+    font-size: 13px;
+    position: absolute;
+    bottom:5px;
+    left:5px;
+}
+.show_roundup{
+    font-size: 15px;
+    position: absolute;
+    top:40px;
+    left:5px;
+}
+.show_full a{
+    font-size: 13px;
+    position: absolute;
+    bottom:5px;
+    right:120px;
+    color: #68AFDA;
+}
+.show_delete a{
+    font-size: 13px;
+    position: absolute;
+    bottom:5px;
+    right:80px;
+    color: #68AFDA;
+}
+.show_update a{
+    font-size: 13px;
+    position: absolute;
+    bottom:5px;
+    right:40px;
+    color: #68AFDA;
+}
+/*删除部分*/
+#delConfirm{
+    position: fixed;
+    bottom:50%;
+    right:45%;
+    width:160px;
+    height:38px;
+    background-color: #c8a732;
+    text-align: center;
+}
+
+#close_notice{
+    position:absolute;
+    left:60px;
+    top:25px;
+}
+#yes_button{
+    position: absolute;
+    bottom: 5px;
+    left:30px;
+}
+#no_button{
+    position: absolute;
+    bottom: 5px;
+    right: 30px;
+}
+
+#page_cut{
+    width:200px;
+    margin:0 auto;
+}
+.page_number_now{
+    float: left;
+    width:30px;
+    text-align: center;
+    background-color: #999999;
+}
+.page_number_jump{
+    float: left;
+    width:30px;
+    text-align: center;
+    background-color: teal;
+    color: whitesmoke;
+}
+.page_number_jump a{
+    color: white;
+}
+
+footer{
+    height:80px;
+    background-color: #ececec;
+    text-align: center;
+    clear: both;
+    padding-top: 30px;
+}
